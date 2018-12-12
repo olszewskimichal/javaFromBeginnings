@@ -9,21 +9,21 @@ public class Lista {
         List<String> list = new ArrayList<>();
         List<String> list2 = new LinkedList<>();
 
-        list.add("value1");
-        list.add("value1");    //mozna duplikowa�
-        list2.add("value2");
+        list.add("value21");
+        list.add("value21");    //mozna duplikowa�
+        list2.add("value22");
         System.out.println(list);
         System.out.println(list2);
         list.addAll(list2);
         System.out.println(list);
 
-        System.out.println(list.contains("value2"));
-        System.out.println(list2.contains("value1"));
+        System.out.println(list.contains("value22"));
+        System.out.println(list2.contains("value21"));
 
         System.out.println(list.isEmpty());
         System.out.println(list.size());
 
-        System.out.println(list.indexOf("value2"));
-        System.out.println(list.indexOf("value2"));
+        System.out.println(list.indexOf("value22"));
+        System.out.println(list2.indexOf("value22"));
     }
 }
