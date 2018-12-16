@@ -20,6 +20,8 @@ public class PreDefineRegex {
         regex(Pattern.compile("\\W"));
         regex(Pattern.compile("\\s"));
         regex(Pattern.compile("\\S"));
+
+        Pattern.compile("\\d{2}-\\d{3}");
     }
 
 }

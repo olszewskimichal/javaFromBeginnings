@@ -8,7 +8,6 @@ public class Lista {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         List<String> list2 = new LinkedList<>();
-
         list.add("value1");
         list.add("value1");    //mozna duplikowa�
         list2.add("value2");
@@ -25,5 +24,12 @@ public class Lista {
 
         System.out.println(list.indexOf("value2"));
         System.out.println(list.indexOf("value2"));
+
+        list.add(0,"value3");
+        System.out.println(list);
+        String s = list.get(0);
+        System.out.println(s);
+        list.remove("value2");
+        System.out.println(list);
     }
 }

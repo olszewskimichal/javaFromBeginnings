@@ -9,5 +9,7 @@ public class Groups {
         System.out.println(pattern.matcher("abcd").matches());
         System.out.println(pattern.matcher("abcdbcd").matches());
         System.out.println(pattern.matcher("bcdbcd").matches());
+
+        Pattern.compile("[^abc]");
     }
 }

@@ -15,9 +15,12 @@ public class Throw {
         throw new IOException("Nie mozna poda� ujemnej godziny");
     }
 
-    public static void main(String[] args) throws IOException {
-        getNumberOfSeconds(3);
-        getNumberOfSeconds(-1);
-        test();
+    public static void test2() {
+        throw new NullPointerException("aa");
+    }
+
+    public static void main(String[] args) {
+        test2();
+        System.out.println("adasdas");
     }
 }

@@ -15,6 +15,7 @@ public class TryCatchException {
         try {
             numberOfSeconds = getNumberOfSeconds(hours);
         } catch (IllegalArgumentException exception) {
+            System.err.println("Nieprawidłowa wartosc");
             numberOfSeconds = getNumberOfSeconds(hours * -1);
         }
         System.out.println(numberOfSeconds);

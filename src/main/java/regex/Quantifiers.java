@@ -13,7 +13,9 @@ public class Quantifiers {
     }
 
     public static void main(String[] args) {
-        regex(Pattern.compile("a*b"));
+        Pattern pattern = Pattern.compile("a*b");
+        System.out.println(pattern.matcher("ab").matches());
+        regex(pattern);
         System.out.println();
         regex(Pattern.compile("a+b"));
         System.out.println();
