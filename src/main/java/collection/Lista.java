@@ -16,8 +16,8 @@ public class Lista {
         list.addAll(list2);
         System.out.println(list);
 
-        System.out.println(list.contains("value2"));
-        System.out.println(list2.contains("value1"));
+        System.out.println(list.contains("value22"));
+        System.out.println(list2.contains("value21"));
 
         System.out.println(list.isEmpty());
         System.out.println(list.size());
@@ -25,11 +25,13 @@ public class Lista {
         System.out.println(list.indexOf("value2"));
         System.out.println(list.indexOf("value2"));
 
-        list.add(0,"value3");
+        list.add(0, "value3");
         System.out.println(list);
         String s = list.get(0);
         System.out.println(s);
         list.remove("value2");
         System.out.println(list);
+        System.out.println(list.indexOf("value22"));
+        System.out.println(list2.indexOf("value22"));
     }
 }

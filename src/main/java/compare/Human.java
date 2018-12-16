@@ -28,6 +28,7 @@ public class Human implements Comparable<Human> {
         return "dzien3.Human [name=" + name + ", lastName=" + lastName + "]";
     }
 
+
     @Override
     public int compareTo(Human o) {
         int compareLastName = getLastName().compareTo(o.getLastName());

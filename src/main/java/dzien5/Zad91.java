@@ -12,6 +12,7 @@ public class Zad91 {
         Path createFile = Files.createFile(Paths.get("plikNowy.txt"));
         Path path = Files.createDirectory(Paths.get("nowyFolder"));
         Files.write(createFile, "some test content...".getBytes());
+        
         List<String> readAllLines = Files.readAllLines(createFile, Charset.forName("UTF-8"));
         System.out.println(readAllLines);
 

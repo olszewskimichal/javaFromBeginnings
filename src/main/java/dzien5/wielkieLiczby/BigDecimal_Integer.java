@@ -12,7 +12,6 @@ public class BigDecimal_Integer {
         new BigDecimal(123);
         BigDecimal val3 = BigDecimal.valueOf(34.3);
         System.out.println(val1 + " " + val2 + " " + val3);
-
         BigInteger val4 = BigInteger.ONE;
         BigInteger val5 = BigInteger.TEN;
         BigInteger val6 = BigInteger.valueOf(34);

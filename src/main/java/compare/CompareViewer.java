@@ -21,19 +21,6 @@ public class CompareViewer {
             System.out.println(human);
         }
 
-        Collections.sort(list, new Comparator<Human>() {
 
-            @Override
-            public int compare(Human o1, Human o2) {
-                int compareTo = o1.getPlec().compareTo(o2.getPlec());
-                if (compareTo == 0)
-                    return o1.compareTo(o2);
-                return compareTo;
-            }
-        });
-
-        for (Human human : list) {
-            System.out.println(human);
-        }
     }
 }

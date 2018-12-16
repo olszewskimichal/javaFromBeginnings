@@ -2,7 +2,7 @@ import java.util.regex.Pattern;
 
 public class Zad97 {
 
-    static Pattern pattern = Pattern.compile("-?\\d+(,\\d+)?");
+    private static Pattern pattern = Pattern.compile("-?\\d+(,\\d+)?");
 
     static boolean isCorrectNumber(String value) {
         return pattern.matcher(value).matches();

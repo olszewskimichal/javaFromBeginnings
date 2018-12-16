@@ -18,6 +18,8 @@ public class Mapy {
 
         System.out.println(map.containsKey(1));
         System.out.println(map.containsKey(3));
+        map.replace(2,"yyy");
+        System.out.println(map);
 
         System.out.println(map.containsValue("aaa"));
         System.out.println(map.containsValue("xxx"));
