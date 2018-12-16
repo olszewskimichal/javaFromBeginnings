@@ -11,14 +11,6 @@ import java.util.List;
 
 public class Zad92 {
 
-    void listFilesInPath() throws IOException {
-        Files.list(Paths.get("")).forEach(System.out::println);
-    }
-
-    void listFilesInPathRecursive() throws IOException {
-        Files.walk(Paths.get("")).forEach(System.out::println);
-    }
-
     public static void main(String[] args) throws IOException {
         List<String> readAllLines = Files.readAllLines(Paths.get("liczby.txt"), Charset.forName("UTF-8"));
 
