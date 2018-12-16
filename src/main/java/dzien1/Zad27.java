@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Zad27 {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         char c = scanner.nextLine().charAt(0);
         int value = c;
         if (value >= 65 && value <= 90)

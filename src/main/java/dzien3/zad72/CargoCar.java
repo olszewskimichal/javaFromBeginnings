@@ -22,7 +22,6 @@ public class CargoCar extends Car {
     }
 
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

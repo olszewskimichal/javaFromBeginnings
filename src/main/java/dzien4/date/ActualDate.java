@@ -16,7 +16,6 @@ public class ActualDate {
         System.out.println(gregorianCalendar.getTime());
 
 
-
         System.out.println(currentDate);
         System.out.println(currentDate2);
 

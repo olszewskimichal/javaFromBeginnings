@@ -11,7 +11,7 @@ public class RandomExample {
         System.out.println(random.nextInt());
         System.out.println(random.nextInt(10));
 
-        for (int i=0;i<100;i++){
+        for (int i = 0; i < 100; i++) {
             System.out.println(random.nextInt(1));
         }
 

@@ -8,7 +8,7 @@ public class DateOperation {
         calendar.add(Calendar.DAY_OF_MONTH, 1);
         System.out.println(calendar.getTime());
 
-        calendar.add(Calendar.YEAR,-1);
+        calendar.add(Calendar.YEAR, -1);
         System.out.println(calendar.getTime());
 
         //Odjęcie 1 dnia od dzisiejszej

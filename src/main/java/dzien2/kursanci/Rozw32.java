@@ -7,7 +7,7 @@ public class Rozw32 {
     }
 
     private static void evenNumber(int a) {
-        if( a % 2 == 0 ) System.out.println("Podana liczba jest parzysta.");
+        if (a % 2 == 0) System.out.println("Podana liczba jest parzysta.");
         else System.out.println("Podana liczba nie jest parzysta.");
     }
 }

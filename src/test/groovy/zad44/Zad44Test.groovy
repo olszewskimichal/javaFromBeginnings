@@ -10,7 +10,7 @@ class Zad44Test extends Specification {
         int a = value1
         int b = value2
         when:
-        int result = Zad44.nwdEuklides(a,b)
+        int result = Zad44.nwdEuklides(a, b)
         then:
         result == wynik
         where:

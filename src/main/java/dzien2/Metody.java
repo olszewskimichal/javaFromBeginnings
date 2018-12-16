@@ -28,6 +28,6 @@ public class Metody {
         val.printSomething();
 
         // Lub tworz�� metode statyczn� i odwolywa� si� do val bezpo�rednio z dzien3.klasy
-       System.out.println(Metody.isBig(34));
+        System.out.println(Metody.isBig(34));
     }
 }

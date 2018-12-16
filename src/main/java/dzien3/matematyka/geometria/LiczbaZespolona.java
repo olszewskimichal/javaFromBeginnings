@@ -39,9 +39,10 @@ public class LiczbaZespolona {
         this.im = this.im - zespolona.getIm();
     }
 
-    void printZespolona(){
-        System.out.println("["+re+","+im+"]");
+    void printZespolona() {
+        System.out.println("[" + re + "," + im + "]");
     }
+
     @Override
     public String toString() {
         return "LiczbaZespolona [re=" + re + ", im=" + im + "]";

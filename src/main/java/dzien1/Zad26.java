@@ -6,7 +6,7 @@ public class Zad26 {
         int b = 4;
         int c = 2;
 
-        if (a > b ) {
+        if (a > b) {
             if (a > c)
                 System.out.println("Max = A");
             else

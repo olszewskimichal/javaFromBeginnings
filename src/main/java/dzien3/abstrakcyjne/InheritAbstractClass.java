@@ -6,7 +6,7 @@ public class InheritAbstractClass extends AbstractClass {
         System.out.println("useful");
     }
 
-    void sayHello(){
+    void sayHello() {
         System.out.println("hello");
     }
 }

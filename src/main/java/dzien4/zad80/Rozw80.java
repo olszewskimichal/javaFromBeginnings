@@ -47,7 +47,7 @@ public class Rozw80 {
         String s = "Paweł";
         System.out.println(wielkimiLiterami(s));
         System.out.println(malymiLiterami(s));
-        System.out.println(zamienNaInny(s,"abc"));
+        System.out.println(zamienNaInny(s, "abc"));
         System.out.println(coDrugaWielka(s));
         System.out.println(odTylu(s));
         System.out.println(zliczSumeCyfr(543));

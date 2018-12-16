@@ -6,7 +6,7 @@ public class Rozw59 {
         System.out.println("ta metoda policzy nam średnią argumentów");
         int a = 14;
         int b = 10;
-        double wynik = avg(9, 23, 3, a,b);
+        double wynik = avg(9, 23, 3, a, b);
         System.out.println("wynik = " + wynik);
 
 

@@ -19,10 +19,10 @@ public class Rozw92 {
             if (liczba % 2 == 0) {
                 Files.write(
                         pathParzyste,
-                        (s+"\n").getBytes(),
+                        (s + "\n").getBytes(),
                         StandardOpenOption.APPEND);
             } else {
-                Files.write(Paths.get("nieparzyste.txt"), (s+"\n").getBytes(), StandardOpenOption.APPEND);
+                Files.write(Paths.get("nieparzyste.txt"), (s + "\n").getBytes(), StandardOpenOption.APPEND);
             }
         }
     }

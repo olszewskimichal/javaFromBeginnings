@@ -1,7 +1,7 @@
 package dzien2.kursanci;
 
 public class Rozw35_36 {
-    static void od1Do10(){
+    static void od1Do10() {
         int n = 1;
         while (n <= 10) {
             System.out.println(n);

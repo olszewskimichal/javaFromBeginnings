@@ -19,7 +19,7 @@ public class Rozw37 {
     }
 
     public static void main(String[] args) {
-       // od1Do10Parzyste();
+        // od1Do10Parzyste();
         od1Do10Parzyste2();
     }
 }

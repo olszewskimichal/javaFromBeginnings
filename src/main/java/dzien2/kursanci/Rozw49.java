@@ -8,8 +8,7 @@ public class Rozw49 {
         System.out.println("podaj mnie liczbe");
         int podana = wprowadzona.nextInt();
 
-        for(int count= 1;count<=podana;count++)
-        {
+        for (int count = 1; count <= podana; count++) {
             for (int count0 = 0; count0 < count; count0++)
                 System.out.print("*");
             System.out.println();

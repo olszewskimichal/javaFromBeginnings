@@ -11,8 +11,6 @@ public class CzyParzysta {
         } else System.out.println("Liczba nieparzysta");
 
 
-
-
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         if (a > b) {

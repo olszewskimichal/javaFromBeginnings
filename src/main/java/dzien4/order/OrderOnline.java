@@ -8,7 +8,7 @@ public class OrderOnline extends OrderBase implements Discount {
         return 5;
     }
 
-    public void sayHello(){
+    public void sayHello() {
         System.out.println("Hello");
     }
 

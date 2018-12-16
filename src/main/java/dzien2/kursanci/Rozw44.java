@@ -11,10 +11,10 @@ public class Rozw44 {
         return b;
     }
 
-    static int nwd(int a, int b){
+    static int nwd(int a, int b) {
         int c;
-        while(b!=0){
-            c = a%b;
+        while (b != 0) {
+            c = a % b;
             a = b;
             b = c;
         }
