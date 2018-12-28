@@ -3,49 +3,54 @@ package dzien3.equals;
 import java.util.Objects;
 
 public class Product {
-    private String name;
-    private Double price;
 
-    public Product(String name, Double price) {
-        this.name = name;
-        this.price = price;
-    }
+  private String name;
+  private Double price;
 
-    public String getName() {
-        return name;
-    }
+  public Product(String name, Double price) {
+    this.name = name;
+    this.price = price;
+  }
 
-    public Double getPrice() {
-        return price;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public void setPrice(Double price) {
-        this.price = price;
-    }
+  public Double getPrice() {
+    return price;
+  }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Product)) return false;
-        Product product = (Product) o;
-        return Objects.equals(name, product.name) &&
-                Objects.equals(price, product.price);
-    }
+  public void setPrice(Double price) {
+    this.price = price;
+  }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, price);
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
     }
+    if (!(o instanceof Product)) {
+      return false;
+    }
+    Product product = (Product) o;
+    return Objects.equals(name, product.name) &&
+        Objects.equals(price, product.price);
+  }
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, price);
+  }
+
+  @Override
+  public String toString() {
+    return "Product{" +
+        "name='" + name + '\'' +
+        ", price=" + price +
+        '}';
+  }
 }

@@ -1,12 +1,13 @@
 package dzien3.abstrakcyjne;
 
 public abstract class AbstractClass {
-    protected String name;
 
-    public void saySomething() {
-        System.out.println("Something");
-    }
+  protected String name;
 
-    public abstract void saySomethingUseful();
+  public void saySomething() {
+    System.out.println("Something");
+  }
+
+  public abstract void saySomethingUseful();
 
 }

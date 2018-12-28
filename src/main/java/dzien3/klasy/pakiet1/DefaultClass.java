@@ -2,10 +2,10 @@ package dzien3.klasy.pakiet1;
 
 class DefaultClass {
 
-    void show() {
+  void show() {
 
-        System.out.println("Klasa domy�lna");
+    System.out.println("Klasa domy�lna");
 
-    }
+  }
 
 }

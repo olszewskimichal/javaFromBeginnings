@@ -1,23 +1,24 @@
 package dzien4.order;
 
 public class OrderShop extends OrderBase implements Discount {
-    public long shopId;
 
-    @Override
-    public double giveDiscount() {
-        return Math.PI;
-    }
+  public long shopId;
 
-    @Override
-    public void saySomething() {
-        System.out.println("Shop something");
-    }
+  @Override
+  public double giveDiscount() {
+    return Math.PI;
+  }
 
-    public void setShopId(long shopId) {
-        this.shopId = shopId;
-    }
+  @Override
+  public void saySomething() {
+    System.out.println("Shop something");
+  }
 
-    public void setPrice(double price) {
-        super.setPrice(price);
-    }
+  public void setShopId(long shopId) {
+    this.shopId = shopId;
+  }
+
+  public void setPrice(double price) {
+    super.setPrice(price);
+  }
 }

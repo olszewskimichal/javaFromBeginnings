@@ -1,19 +1,20 @@
 package dzien4.order;
 
 public class OrderOnline extends OrderBase implements Discount {
-    private long userId;
 
-    @Override
-    public double giveDiscount() {
-        return 5;
-    }
+  private long userId;
 
-    public void sayHello() {
-        System.out.println("Hello");
-    }
+  @Override
+  public double giveDiscount() {
+    return 5;
+  }
 
-    @Override
-    public void saySomething() {
-        System.out.println("online something");
-    }
+  public void sayHello() {
+    System.out.println("Hello");
+  }
+
+  @Override
+  public void saySomething() {
+    System.out.println("online something");
+  }
 }

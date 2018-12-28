@@ -18,7 +18,7 @@ class Zad7 {
     shoppingCart.dodajProduct(product1, 3L);
     shoppingCart.dodajProduct(product1, 2L);
     shoppingCart.dodajProduct(product2, 1L);
-    shoppingCart.dodajProduct(product3,2L);
+    shoppingCart.dodajProduct(product3, 2L);
 
     System.out.println(shoppingCart.cartCost());
     System.out.println(shoppingCart.theCheapestProduct());

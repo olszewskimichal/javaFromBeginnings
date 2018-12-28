@@ -14,7 +14,7 @@ class Zad5 {
    * @param n ile roznych liczb ma wylosować
    * @return Zbiór roznych wylosowanych liczb z przedziału [p,k]
    */
-  static Set<Integer> randomDifferentNumbers(int p, int k,int n) {
+  static Set<Integer> randomDifferentNumbers(int p, int k, int n) {
     Random random = new Random();
     Set<Integer> result = new HashSet<>();
     do {
@@ -24,7 +24,7 @@ class Zad5 {
   }
 
   public static void main(String[] args) {
-    System.out.println(randomDifferentNumbers(5,15,5));
+    System.out.println(randomDifferentNumbers(5, 15, 5));
   }
 
 }

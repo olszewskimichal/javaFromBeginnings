@@ -1,27 +1,28 @@
 package dzien5.money;
 
 public class Exchange {
-    private double dollarToFranc;
-    private double francToDollar;
 
-    public Exchange(double dollarToFranc, double francToDollar) {
-        this.dollarToFranc = dollarToFranc;
-        this.francToDollar = francToDollar;
-    }
+  private double dollarToFranc;
+  private double francToDollar;
 
-    public double dollarToFrancRatio() {
-        return dollarToFranc;
-    }
+  public Exchange(double dollarToFranc, double francToDollar) {
+    this.dollarToFranc = dollarToFranc;
+    this.francToDollar = francToDollar;
+  }
 
-    public double francToDollarRatio() {
-        return francToDollar;
-    }
+  public double dollarToFrancRatio() {
+    return dollarToFranc;
+  }
 
-    public Franc dollarToFranc(Dollar dollar1) {
-        return new Franc(dollar1.getAmount() * francToDollarRatio());
-    }
+  public double francToDollarRatio() {
+    return francToDollar;
+  }
 
-    public Dollar francToDollar(Franc obj) {
-        return new Dollar(obj.getAmount() * dollarToFrancRatio());
-    }
+  public Franc dollarToFranc(Dollar dollar1) {
+    return new Franc(dollar1.getAmount() * francToDollarRatio());
+  }
+
+  public Dollar francToDollar(Franc obj) {
+    return new Dollar(obj.getAmount() * dollarToFrancRatio());
+  }
 }

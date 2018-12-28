@@ -1,7 +1,8 @@
 package dzien4.zad81;
 
 public class MathExample {
-    public static void main(String[] args) {
 
-    }
+  public static void main(String[] args) {
+
+  }
 }

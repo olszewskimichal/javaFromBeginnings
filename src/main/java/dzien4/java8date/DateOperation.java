@@ -5,15 +5,16 @@ import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 public class DateOperation {
-    public static void main(String[] args) {
-        Instant plus = Instant.now().plus(1, ChronoUnit.DAYS);
-        System.out.println(plus);
 
-        Period period = Period.ofDays(1);
-        Instant.now().plus(period);
-        Instant instant = Instant.now().plus(Period.ofDays(1));
-        Instant instant2 = Instant.now().plus(1, ChronoUnit.DAYS);
+  public static void main(String[] args) {
+    Instant plus = Instant.now().plus(1, ChronoUnit.DAYS);
+    System.out.println(plus);
 
-        System.out.println(instant + " " + instant2);
-    }
+    Period period = Period.ofDays(1);
+    Instant.now().plus(period);
+    Instant instant = Instant.now().plus(Period.ofDays(1));
+    Instant instant2 = Instant.now().plus(1, ChronoUnit.DAYS);
+
+    System.out.println(instant + " " + instant2);
+  }
 }
