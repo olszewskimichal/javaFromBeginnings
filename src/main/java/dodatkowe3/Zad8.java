@@ -5,8 +5,10 @@ import java.util.regex.Pattern;
 
 class Zad8 {
 
+
+  private static Pattern pattern = Pattern.compile(".+@.+\\..+");
+
   public static void main(String[] args) {
-    Pattern pattern = Pattern.compile(".+@.+\\..+");
 
     Scanner scanner = new Scanner(System.in);
     String email = scanner.next();
