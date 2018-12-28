@@ -4,7 +4,6 @@ import static java.time.temporal.ChronoUnit.DAYS;
 import static java.time.temporal.ChronoUnit.HOURS;
 import static java.time.temporal.ChronoUnit.MINUTES;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 class Zad3 {
@@ -17,8 +16,8 @@ class Zad3 {
     LocalDateTime nearestBirthday = calculateNearestDate();
 
     System.out.println(DAYS.between(now, nearestBirthday));
-    System.out.println(HOURS.between(now, nearestBirthday)%24);
-    System.out.println(MINUTES.between(now, nearestBirthday)%60);
+    System.out.println(HOURS.between(now, nearestBirthday) % 24);
+    System.out.println(MINUTES.between(now, nearestBirthday) % 60);
   }
 
   /**
