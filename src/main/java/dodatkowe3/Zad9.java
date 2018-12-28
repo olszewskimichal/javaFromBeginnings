@@ -3,6 +3,9 @@ package dodatkowe3;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+/**
+ * Napisz program który pobierze hasło od użytkownika a następnie sprawdzi czy podane hasło jest wystarczająco trudne. Np. czy ma minimum 8 znaków i posiada jakąś liczbę i znak specjalny.
+ */
 class Zad9 {
 
   /**

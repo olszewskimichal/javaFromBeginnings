@@ -4,6 +4,9 @@ import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
 
+/**
+ * Napisz program który do aktualnej daty doda 1 rok , 2 miesiące , 3dni i 4godzin. Wynik z tego wypisz na ekran
+ */
 class Zad2 {
 
   static LocalDateTime addOneYear_TwoMonth_ThreeDays_FourHours(LocalDateTime dateTime) {

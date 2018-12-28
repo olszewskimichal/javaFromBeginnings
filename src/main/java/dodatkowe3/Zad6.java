@@ -6,6 +6,14 @@ import java.util.Collections;
 import java.util.List;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Napisz Klasę Produkt ( zawierająca podstawowe informacje na temat produktów tj nazwa i cena ( jako BigDecimal).
+ * Następnie napisz klasę Koszyk która będzie przechowywała listę produktów.
+ * Do klasy koszyk napisz metody które wyliczą :
+ * - sumę wszystkich produktów które są w koszyk
+ * - który produkt jest najdroższy
+ * - który produkt jest najtańszy
+ */
 class Zad6 {
 
   public static void main(String[] args) {

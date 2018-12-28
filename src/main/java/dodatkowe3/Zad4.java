@@ -1,6 +1,11 @@
 package dodatkowe3;
 
 
+/**
+ * Napisz program który utnie pierwsze 5 znaków ze Stringa:
+ * czyli dla wejścia abcdefgh -> wynikiem będzie abcde
+ * jeżeli string na wejściu będzie krótszy niż 5 to zwróć odpowiedni wyjątek
+ */
 class Zad4 {
 
   public static void main(String[] args) {

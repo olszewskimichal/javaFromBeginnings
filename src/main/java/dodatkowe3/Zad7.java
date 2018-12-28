@@ -7,6 +7,12 @@ import java.util.Map.Entry;
 import java.util.Objects;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Przerób zadanie 6 tak by Koszyk zamiast przechowywać listę produkty by przechowywał mapę produktów:
+ * - mapa zawierała by produkt i jego ilość sztuk
+ * - Przerób metodę sumująca by poradziła sobie z tą kolekcją i poprawnie zwracała wynik
+ * - Dodaj metodę dodajProdukt do klasy Koszyk, która będzie przyjmować w swoich argumentach Produkt oraz ilość. Metoda ta niech dodaje tę parę do mapy.  Wyrzuć wyjątek jeśli ilość produktów będzie mniejsza niż 1.
+ */
 class Zad7 {
 
   public static void main(String[] args) {

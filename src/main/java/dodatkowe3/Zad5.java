@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
+/**
+ * Napisz losowanie 6 różnych liczb z zakresu od 5 do 15 ( możesz wykorzystać kolekcje typu Set)
+ */
 class Zad5 {
 
   /**

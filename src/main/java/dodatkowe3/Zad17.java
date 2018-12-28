@@ -7,6 +7,20 @@ import java.util.List;
 import java.util.Objects;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * Stwórz klasy PizzaDeluxe, PizzaSpecial i PizzaWege. Każda z tych class powinna dziedziczyć po klasie abstrakcyjnej Pizza.
+ * Klasa Pizza powinna implementowac interfejs Comparable.
+ * Klasa Pizza powinna mieć następujące atrybuty:
+ * - calories:double
+ * - name:String
+ * - price:BigDecimal
+ * Klasa Pizza powinna mieć:
+ * - gettery
+ * - konstruktor przyjmujący wszystkie 3 atrybuty tj kalorie,nazwe i cene
+ * Zaimplementuj również metody hashCode i Equals oraz toString
+ *
+ * W metodzie main stwórz po kilka instancji klas PizzaDeluxe, PizzaSpecial i PizzaWege i zapisz je do Listy. Następnie posortuj te listę według ceny
+ */
 class Zad17 {
 
   public static void main(String[] args) {

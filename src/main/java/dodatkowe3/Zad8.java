@@ -3,9 +3,10 @@ package dodatkowe3;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+/**
+ * Napisz program który pobierze email od użytkownika a następnie sprawdzi czy podany email jest poprawny.
+ */
 class Zad8 {
-
-
   private static Pattern pattern = Pattern.compile(".+@.+\\..+");
 
   public static void main(String[] args) {

@@ -6,6 +6,9 @@ import static java.time.temporal.ChronoUnit.MINUTES;
 
 import java.time.LocalDateTime;
 
+/**
+ * Napisz program który wyliczy ilość dni/godzin i minut do czasu waszych urodzin
+ */
 class Zad3 {
 
   private static int birthdayMonth = 12;

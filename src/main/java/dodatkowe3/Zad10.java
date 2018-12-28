@@ -6,6 +6,9 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Napisz program który pobierze wszystkie słowa z pliku i zapisze do pliku palindrom.txt tylko te które są palindromami
+ */
 class Zad10 {
 
   public static void main(String[] args) throws IOException {
