@@ -1,3 +1,5 @@
+package dzien7;
+
 public class Zad113 {
 
   public static void main(String[] args) {

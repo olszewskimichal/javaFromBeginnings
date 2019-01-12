@@ -1,4 +1,4 @@
-package zad115;
+package dzien7.zad115;
 
 import java.math.BigDecimal;
 

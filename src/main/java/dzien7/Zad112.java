@@ -1,3 +1,5 @@
+package dzien7;
+
 public class Zad112 {
 
   public static <V> void wydrukujListe(V... lista) {

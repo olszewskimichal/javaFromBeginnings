@@ -1,4 +1,4 @@
-package compare;
+package dzien7.compare;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

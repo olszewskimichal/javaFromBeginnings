@@ -1,3 +1,5 @@
+package dzien7;
+
 import java.math.BigDecimal;
 
 public class Zad110 {
@@ -28,7 +30,7 @@ class Pair2<T extends Number, S extends Number> {
 
   @Override
   public String toString() {
-    return "Pair [first=" + first + ", second=" + second + "]";
+    return "dzien7.Pair [first=" + first + ", second=" + second + "]";
   }
 
 }

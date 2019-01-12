@@ -1,4 +1,4 @@
-package optionals;
+package dzien7.optionals;
 
 public class WrapperObject {
 

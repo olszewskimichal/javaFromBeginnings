@@ -1,3 +1,5 @@
+package dzien7;
+
 import java.util.Optional;
 
 public class Zad116 {

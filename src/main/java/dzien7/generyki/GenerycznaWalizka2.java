@@ -1,4 +1,4 @@
-package generyki;
+package dzien7.generyki;
 
 public class GenerycznaWalizka2<T extends Number> {
 

@@ -1,3 +1,5 @@
+package dzien7;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -8,6 +10,7 @@ public class Zad109 {
   public static void main(String[] args) {
     Pair<Integer, String> para = new Pair<Integer, String>(1, "a");
     Pair<List, Set> para2 = new Pair<List, Set>(new ArrayList<>(), new HashSet<>());
+    para2.getFirst().add("aaa");
     System.out.println(para);
     System.out.println(para2);
   }
@@ -33,7 +36,7 @@ class Pair<T, S> {
 
   @Override
   public String toString() {
-    return "Pair [first=" + first + ", second=" + second + "]";
+    return "dzien7.Pair [first=" + first + ", second=" + second + "]";
   }
 
 }

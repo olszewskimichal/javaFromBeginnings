@@ -1,4 +1,4 @@
-package optionals;
+package dzien7.optionals;
 
 import java.util.Optional;
 
@@ -12,7 +12,9 @@ public class OptionalExample {
     } catch (NullPointerException e) {
       System.out.println("Polecia� wyj�tek a tego by�my nie chcieli");
     }
-    String name = Optional.ofNullable(object.getObject()).map(v -> v.getName()).orElse("Empty name");
+    String name = Optional.ofNullable(object.getObject())
+            .map(v -> v.getName())
+            .orElse("Empty name");
     System.out.println(name);
 
     WrapperObject object2 = new WrapperObject();
