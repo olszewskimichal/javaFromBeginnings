@@ -1,6 +1,7 @@
 package lambda;
 
 import java.util.function.BiConsumer;
+import java.util.function.DoubleSupplier;
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 
@@ -26,6 +27,11 @@ public class LambdaExpressionExample {
       }
     };
     greetingModule.sayHello();
+
+    Runnable hello_world = () -> System.out.println("Hello world");
+    hello_world.run();
+    DoubleSupplier doubleSupplier = () -> 3.14;
+    System.out.println(doubleSupplier.getAsDouble());
 
     Multiply m = (Integer x, Long y) -> System.out.println(x * y);
     m.calculate(3, 4L);
